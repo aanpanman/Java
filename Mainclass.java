@@ -35,7 +35,7 @@ class MainClass {
         //int x = mc.sumEven(n) 
         //          (OR)
         //int x = new MainClass().sumEven(n);
-        int n;
+        /*int n;
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         int sum = sumEven(n);
@@ -53,6 +53,46 @@ class MainClass {
         }
         return sum;
         
+    }*/
+
+        //System.out.println(1.0/0);
+        //System.out.println(3.0f/0);
+        //System.out.println(12/0); // throws error as infinity is not defined in Integer wrapper class
+        /*System.out.println(Float.POSITIVE_INFINITY-Float.POSITIVE_INFINITY); // will give NaN
+        System.out.println(4 << 1); //left shift
+        System.out.println(16 >> 3); //right shift
+        byte b1 = -78, b2 = (byte)130;
+        System.out.println(b1 + " " + b2);*/
+
+        /*loop1:
+            for (int i = 0; i < 10; i++)
+            {
+                System.out.println();
+                for (int j = 0; j < 10; j++)
+                {
+                    System.out.print(j + " ");
+                    if (j >= i)
+                        continue loop1;
+
+                }
+            }
+        */
+
+        outer:
+        {
+            System.out.println("hello");
+            middle:
+            {
+                System.out.println("students");
+                if (true)
+                    break outer;
+                inner:
+                {
+                    System.out.println("welcome to java");
+                }
+            }
+            System.out.println("class");
+        }
     }
 
 }
