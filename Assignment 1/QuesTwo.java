@@ -1,5 +1,3 @@
-import java.util.*;
-
 class QuesTwo {
     public static void main(String[] args) {
 

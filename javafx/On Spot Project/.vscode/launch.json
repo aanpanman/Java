@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Flap.Main",
+            "projectName": "On Spot Project_1f4b6d40",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch BattleShip",
+            "request": "launch",
+            "mainClass": "Game.BattleShip",
+            "projectName": "On Spot Project_1f4b6d40",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch BattleShip",
+            "request": "launch",
+            "mainClass": "BattleShip",
+            "projectName": "On Spot Project_1f4b6d40",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch fx",
+            "request": "launch",
+            "mainClass": "fx",
+            "projectName": "javafx_ee4ed0d3",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

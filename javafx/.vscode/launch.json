@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Event",
+            "request": "launch",
+            "mainClass": "Event",
+            "projectName": "javafx_ee4ed0d3",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ui",
+            "request": "launch",
+            "mainClass": "Ui",
+            "projectName": "javafx_ee4ed0d3",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch fx",
+            "request": "launch",
+            "mainClass": "fx",
+            "projectName": "javafx_ee4ed0d3",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

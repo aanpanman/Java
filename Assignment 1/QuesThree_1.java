@@ -1,9 +1,10 @@
 import java.util.*;
 
-class One {
+class QuesThree_1 {
     public static void main(String[] args) {
         int n;
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter input: ");
         n = sc.nextInt();
         int sum = 0, sign = 1;
 

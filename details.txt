@@ -1,0 +1,10 @@
+21BCE9001,Java,78,C++,63,Calculus,89,Chemistry,75
+21BCE9002,English,79,Statistics,92,C++,84
+21BCE9003,Statistics,90,Java,81,Physics,77,English,58,TOC,69
+21BCE9004,Java,78,C++,63,Calculus,89,Chemistry,75
+21BCE9005,English,79,Statistics,92,C++,84
+21BCE9006,Statistics,90,Java,81,Physics,77,English,58,TOC,69
+21BCE9007,Java,78,C++,63,Calculus,89,Chemistry,75
+21BCE9008,English,79,Statistics,92,C++,84
+21BCE9009,Statistics,90,Java,81,Physics,77,English,58,TOC,69
+21BCE9010,Java,78,C++,63,Calculus,89,Chemistry,75
